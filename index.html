@@ -62,13 +62,14 @@
                 <!-- 4. Tên của người đó -->
                 <h1 onclick="showMessage()" class="avatar__title">Thúy Ngân</h1>
             </div>
-            
+         
             <!-- 5. Phần nhạc -->
             <audio id="player" autoplay loop>
                 <source src="./music.mp3" type="audio/mp3" />
             </audio>
             
         </div>
+        
         <script>
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage("resize", "*");
